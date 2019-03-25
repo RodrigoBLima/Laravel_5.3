@@ -27,6 +27,9 @@
         </div>
       @endforeach  
     </div>
+    <div class="row" text-align="center" >
+        {{$produtos->links()}}
+    </div>
             
   
  @endsection
